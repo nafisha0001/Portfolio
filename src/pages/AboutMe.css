@@ -1,0 +1,53 @@
+.AboutMe{
+    background-color: #373737;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+  
+  .aboutme-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    height: calc(100vh - 60px); 
+  }
+  
+  .aboutme-content__image,
+  .aboutme-content__description {
+    width: 40%; 
+  }
+  
+  .aboutme-content__image img {
+    width: 55%; 
+    height: auto;
+    margin-left: 20%;
+  }
+  
+  .aboutme-content__description h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  .aboutme-content__description p {
+    font-size: 18px;
+    color: #dcdcdc;
+    line-height: 1.6;
+  }
+  
+  .contact-button {
+    background-color: #ccc;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 3px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .contact-button:hover {
+    background-color: #898989; 
+  }

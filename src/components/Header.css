@@ -10,6 +10,7 @@ body, html {
     background-color: #373737; 
     padding: 15px 20px; 
     color: white; 
+    border-bottom: 2px solid rgb(173, 171, 171);
   }
   
   .header__logo {
