@@ -1,12 +1,10 @@
 import React from 'react'
-import Header from '../components/Header'
 import './AboutMe.css'
 import image from '../Images/nafisha.jpg'
 
 function AboutMe() {
   return (
     <div className='AboutMe'>
-      <Header />
       <div className='aboutme-content'>
         <div className='aboutme-content__image'>
           <img src={image} alt="Profile" />

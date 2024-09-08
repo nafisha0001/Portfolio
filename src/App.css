@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Full height of the viewport */
+    overflow: hidden; /* Disables scrolling */
+  }
+  
+  .App {
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Ensures no scrolling within the App */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  /* Ensure any internal content also respects the no-scroll rule */
+  .App > * {
+    overflow: hidden; /* Apply to all direct children if needed */
+  }
+  

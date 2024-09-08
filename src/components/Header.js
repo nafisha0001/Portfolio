@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css'; // Make sure to import the CSS file
 
 function Header() {
@@ -6,11 +7,11 @@ function Header() {
     <header className="header">
       <div className="header__logo">Nafisha Begum</div>
       <nav className="header__nav">
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#projects">Projects</a>
+        <Link to="/aboutme">About Me</Link>
+        <Link to="/education">Education</Link> {/* Update link to route */}
+        <Link to="#skills">Skills</Link>
+        <Link to="#certifications">Certifications</Link>
+        <Link to="#projects">Projects</Link>
       </nav>
       <div className="header__right">
         <a href="https://www.linkedin.com/in/nafisha-begum" target="_blank" rel="noopener noreferrer" className="header__icon">
