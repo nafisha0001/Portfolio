@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import AboutMe from './pages/AboutMe'; 
-import Education from './pages/Education'; // Import Education component
-
+import Education from './pages/Education'; 
 function App() {
   return (
     <Router>
@@ -12,7 +11,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/education" element={<Education />} /> {/* Route for Education */}
+          <Route path="/education" element={<Education />} /> 
         </Routes>
       </div>
     </Router>
