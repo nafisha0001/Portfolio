@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import SkillCard from '../components/SkillCard'; // Assuming SkillCard is adjusted accordingly
+import SkillCard from '../components/SkillCard'; 
 
 function Skills() {
     const skills = [
@@ -19,13 +19,13 @@ function Skills() {
     ];
 
     return (
-        <div className='Skill-container'>
+        // <div className='Skill-container'>
             <div className='Skills'>
                 {skills.map(skill => (
                     <SkillCard key={skill.name} skillName={skill.name} />
                 ))}
             </div>
-        </div>
+        // </div>
     );
 }
 

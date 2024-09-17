@@ -1,0 +1,7 @@
+.certification-container{
+    height: 100vh;
+    background-color: #373737;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    place-items: center;
+}

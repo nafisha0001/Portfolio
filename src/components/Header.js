@@ -10,7 +10,7 @@ function Header() {
         <Link to="/aboutme">About Me</Link>
         <Link to="/education">Education</Link> 
         <Link to="/skills">Skills</Link>
-        <Link to="#certifications">Certifications</Link>
+        <Link to="/certification">Certifications</Link>
         <Link to="#projects">Projects</Link>
       </nav>
       <div className="header__right">

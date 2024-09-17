@@ -1,19 +1,23 @@
 .skillCard {
     width: 150px;
     height: 50px; 
-    border: 1px solid black;
     border-radius: 10px; 
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background: #373737; 
+    box-shadow: 0 0 5px 3px rgba(127, 126, 126, 0.5);
     text-align: center;
-    background: #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.skillCard:hover {
+    box-shadow: 0 8px 16px rgba(204, 204, 204, 0.5);
 }
 
 .skill-name {
     font-size: 16px; 
-    color: black;
+    color: white; 
     padding: 5px;
 }

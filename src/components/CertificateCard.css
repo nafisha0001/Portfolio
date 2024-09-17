@@ -1,4 +1,4 @@
-.education-card {
+.certificate-card{
     height: 200px;
     width: 300px;
     background: #373737;
@@ -13,6 +13,6 @@
   }
   
 
-  .education-card:hover {
+  .certificate-card:hover {
     box-shadow: 0 8px 16px rgba(204, 204, 204, 0.5);
 }

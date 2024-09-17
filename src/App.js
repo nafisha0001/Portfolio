@@ -5,6 +5,7 @@ import Header from './components/Header';
 import AboutMe from './pages/AboutMe'; 
 import Education from './pages/Education'; 
 import Skills from './pages/Skills';
+import Certification from './pages/Certification';
 function App() {
   return (
     <Router>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/education" element={<Education />} /> 
           <Route path="/skills" element={<Skills />} /> 
+          <Route path="/certification" element={<Certification />} /> 
         </Routes>
       </div>
     </Router>
