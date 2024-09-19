@@ -2,6 +2,15 @@
     height: 100vh;
     background-color: #373737;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
     place-items: center;
+    padding: 30px;
+    row-gap: 10px;
+    column-gap: 50px;
+    /* display: flex;
+    flex-direction: column;
+    padding: 20px; */
+    /* justify-content: stretch; */
+    /* align-items: stretch; */
+    /* overflow-y: auto; */
 }

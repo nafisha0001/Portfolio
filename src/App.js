@@ -6,6 +6,7 @@ import AboutMe from './pages/AboutMe';
 import Education from './pages/Education'; 
 import Skills from './pages/Skills';
 import Certification from './pages/Certification';
+import Responsibility from './pages/Responsibility';
 function App() {
   return (
     <Router>
@@ -16,7 +17,8 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/education" element={<Education />} /> 
           <Route path="/skills" element={<Skills />} /> 
-          <Route path="/certification" element={<Certification />} /> 
+          <Route path="/certification" element={<Certification />} />
+          <Route path="/responsibility" element={<Responsibility />} /> 
         </Routes>
       </div>
     </Router>

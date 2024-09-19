@@ -1,18 +1,25 @@
 .certificate-card{
-    height: 200px;
-    width: 300px;
+    height: 160px;
+    width: 90%;
     background: #373737;
-    box-shadow: 0 0 10px 5px rgba(127, 126, 126, 0.5); 
+    box-shadow: 0 0 5px 5px rgba(127, 126, 126, 0.5); 
     margin: 20px;
     text-align: center;
-    border-radius: 3%;
+    border-radius: 10px;
     border-color: #ccc;
-    color: white;
-    padding: 20px 20px 0px 20px;
+    color: rgb(173, 173, 173);
+    padding: 20px;
     transition: box-shadow 0.3s ease;
   }
   
+  h2{
+    color: white;
+  }
 
   .certificate-card:hover {
     box-shadow: 0 8px 16px rgba(204, 204, 204, 0.5);
+}
+
+#certificate-credential{
+  color: rgb(173, 173, 173);
 }

@@ -1,13 +1,12 @@
 import React from 'react';
 import './CertificateCard.css';
 
-function CertificateCard({ title, institution, year, marks }) {
+function CertificateCard({ title, institution, credential }) {
   return (
     <div className="certificate-card">
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <p>{institution}</p>
-        <p>{year}</p>
-        <p>{marks}</p>
+        <a id='certificate-credential' href={credential} target="_blank" rel="noreferrer">Credential</a>
     </div>
   )
 }

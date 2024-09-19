@@ -19,13 +19,13 @@ function Skills() {
     ];
 
     return (
-        // <div className='Skill-container'>
+        <div className='Skill-container'>
             <div className='Skills'>
                 {skills.map(skill => (
                     <SkillCard key={skill.name} skillName={skill.name} />
                 ))}
             </div>
-        // </div>
+        </div>
     );
 }
 

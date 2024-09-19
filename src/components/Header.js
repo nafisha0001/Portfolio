@@ -12,6 +12,7 @@ function Header() {
         <Link to="/skills">Skills</Link>
         <Link to="/certification">Certifications</Link>
         <Link to="#projects">Projects</Link>
+        <Link to="/responsibility">Responsibility</Link>
       </nav>
       <div className="header__right">
         <a href="https://www.linkedin.com/in/nafisha-begum" target="_blank" rel="noopener noreferrer" className="header__icon">
