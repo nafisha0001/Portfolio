@@ -21,7 +21,9 @@ function Header() {
         <a href="https://github.com/nafisha0001" target="_blank" rel="noopener noreferrer" className="header__icon">
           <i className="fab fa-github"></i>
         </a>
-        <button className="header__resume">Resume</button>
+        <button className="header__resume">
+          <a id='resume-link' href='https://drive.google.com/file/d/1Xj-EBxmdTH7v4OpBs5D0P10UVptGNrhZ/view?usp=drive_link' target="_blank" rel="noopener noreferrer">Resume</a>
+        </button>
       </div>
     </header>
   );

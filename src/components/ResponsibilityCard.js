@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import "./ResponsibilityCard.css";
 
-function ResponsibilityCard() {
+function ResponsibilityCard({ title, institution, duration, work, className }) {
   return (
-    <div>
-        <h1>hello</h1>
+    <div className="reponsibility-card">
+      <div className={`${className}`}>
+        <h2>{title}</h2>
+        <p>{institution}</p>
+        <p>{duration}</p>
+        <ul id='responsibility-work'>
+          <li>{work}</li>
+        </ul>
+      </div>
     </div>
   )
 }

@@ -32,7 +32,7 @@ function Education() {
   ];
 
   return (
-    <div className="card-container">
+    <div className="education-card-container">
       {educationData.map((data, index) => (
         <EducationCard
           key={index}

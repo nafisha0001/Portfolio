@@ -55,4 +55,9 @@ body, html {
   .header__resume:hover {
     background-color: #898989; 
   }
+
+  #resume-link{
+    text-decoration: none; 
+    color: inherit;
+  }
   
