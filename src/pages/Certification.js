@@ -37,15 +37,22 @@ function Certification() {
   ];
 
   return (
-    <div className='certification-container'>
-      {certificateData.map((certificate, index) => (
-        <CertificateCard 
-          key={index} 
-          title={certificate.title} 
-          institution={certificate.institution} 
-          credential={certificate.credential} 
-        />
-      ))}
+    <div className='parent-certification-container'>
+      <div className='certification-card-container'>
+        {certificateData.map((certificate, index) => (
+          <div
+            key={index}
+            className={`card ${index % 2 === 0 ? 'card-left' : 'card-right'}`}
+          >
+            <CertificateCard
+              className={`card ${index % 2 === 0 ? 'card-left-align' : 'card-right-align'}`}
+              title={certificate.title}
+              institution={certificate.institution}
+              credential={certificate.credential}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
