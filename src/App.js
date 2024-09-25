@@ -7,6 +7,7 @@ import Education from './pages/Education';
 import Skills from './pages/Skills';
 import Certification from './pages/Certification';
 import Responsibility from './pages/Responsibility';
+import Projects from './pages/Projects';
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/skills" element={<Skills />} /> 
           <Route path="/certification" element={<Certification />} />
           <Route path="/responsibility" element={<Responsibility />} /> 
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>

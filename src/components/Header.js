@@ -11,7 +11,7 @@ function Header() {
         <Link to="/education">Education</Link> 
         <Link to="/skills">Skills</Link>
         <Link to="/certification">Certifications</Link>
-        <Link to="#projects">Projects</Link>
+        <Link to="/projects">Projects</Link>
         <Link to="/responsibility">Responsibility</Link>
       </nav>
       <div className="header__right">

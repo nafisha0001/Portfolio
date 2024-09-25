@@ -1,0 +1,31 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 10px 30px;
+    width: 40%;
+    color: rgb(173, 173, 173);
+    border-radius: 5%;
+  }
+  
+  h2{
+    color: white;
+  }
+
+.project-card:hover {
+    box-shadow: 0 8px 16px rgba(204, 204, 204, 0.5);
+}
+
+.card-left-align {
+  /* align-items: flex-end;  */
+  text-align: right;
+}
+
+.card-right-align {
+  /* align-items: flex-start;  */
+  text-align: left;
+}
+
+.project-card a{
+  color: white;
+}
